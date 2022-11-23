@@ -1,3 +1,98 @@
-h1 {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
   font-family: "Archivo", sans-serif;
+  color: #FFF;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #000201;
+}
+
+.container {
+  width: 100%;
+  max-width: 140.5rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+@media (max-width: 144-px) {
+  .container {
+    max-width: 124.8rem;
+  }
+}
+
+.subtitle {
+  display: flex;
+  align-items: center;
+}
+.subtitle span {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  color: #FFFFFF;
+  margin-left: 15px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 12.4rem;
+  line-height: 97.5%;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+p {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 160%;
+  color: #BDC2CB;
+}
+
+.card-character {
+  width: 100%;
+  max-width: 24rem;
+}
+.card-character .image {
+  width: 100%;
+  height: 32.5rem;
+  margin-bottom: 1.5rem;
+}
+.card-character .image button {
+  padding: 1.125rem 2.25rem;
+  background-color: #3265EA;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+.card-character .info h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  margin-bottom: 7px;
+}
+.card-character .info span {
+  font-size: 14px;
+  line-height: 15px;
 }/*# sourceMappingURL=main.min.css.map */
