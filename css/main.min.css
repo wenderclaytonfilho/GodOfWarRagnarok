@@ -146,4 +146,121 @@ header .platform ul li {
   padding: 4px 8px;
   font-size: 14px;
   line-height: 15px;
+}
+
+.s-hero {
+  padding-top: 164px;
+  padding-bottom: 103px;
+  background-image: url("../img/bg-hero.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+.s-hero .container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.s-hero .left {
+  width: 100%;
+  max-width: 782px;
+}
+.s-hero .left h1 {
+  margin-top: 24px;
+  margin-bottom: 18px;
+}
+.s-hero .left p {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.s-hero .left .value {
+  display: flex;
+}
+.s-hero .left .value strong {
+  background-color: #FFFFFF;
+  padding: 18px 36px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #000000;
+}
+.s-hero .left .value a {
+  display: block;
+  background-color: #3256EA;
+  padding: 18px 36px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.s-hero .right {
+  position: relative;
+  top: 97px;
+  width: 100%;
+  max-width: 443px;
+}
+.s-hero .right span {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 26px;
+}
+.s-hero .right button {
+  width: 100%;
+  height: 247px;
+  border: 2px solid #3256EA;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 51px;
+}
+.s-hero .right button .thumbnail {
+  width: 100%;
+}
+.s-hero .right button .play {
+  position: absolute;
+  bottom: 25px;
+  left: 32px;
+}
+.s-hero .right .pegi {
+  display: flex;
+  align-items: center;
+}
+.s-hero .right .pegi p {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  max-width: 274px;
+  margin-left: 15px;
+}
+
+.s-general-info {
+  width: 100%;
+  height: 18rem;
+  display: flex;
+  align-items: center;
+}
+.s-general-info ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.s-general-info ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.s-general-info ul li span {
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #BDC2CB;
 }/*# sourceMappingURL=main.min.css.map */
